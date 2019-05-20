@@ -5,6 +5,9 @@ export function binaryCount(num: number): number{
 
 import * as assert from 'assert';
 
+console.log('Example:')
+console.log(binaryCount(4))
+
 assert.equal(binaryCount(4), 1);
 assert.equal(binaryCount(15), 4);
 assert.equal(binaryCount(1), 1);
